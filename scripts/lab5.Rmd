@@ -66,3 +66,12 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 ```
 
 Please submit you .Rmd file, as well as the rendered .html file.
+
+```{r}
+
+ggplot(mtcars, aes(wt, mpg)) %>% 
+  geom_point()
+
+
+```
+
